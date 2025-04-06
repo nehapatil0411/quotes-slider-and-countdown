@@ -1,0 +1,29 @@
+*
+{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.quote-container {
+    background-color: #444;
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 60%;
+    max-width: 500px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 1s ease;
+    margin: 20px ;
+}
